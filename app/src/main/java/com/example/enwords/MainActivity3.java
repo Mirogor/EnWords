@@ -53,28 +53,28 @@ public class MainActivity3 extends AppCompatActivity {
         if (util.Checking(findViewById(R.id.choose_butt_1), findViewById(R.id.textView), Utilities.right_key, Utilities.points,Utilities.AllPoints))
             Utilities.points++;
         Utilities.AllPoints++;
-        tm.schedule(tsk, 2000);
+        tm.schedule(tsk, 1500);
     }
 
     public void onButtonClickButton2(View view) {
         if (util.Checking(findViewById(R.id.choose_butt_2), findViewById(R.id.textView), Utilities.right_key, Utilities.points,Utilities.AllPoints))
             Utilities.points++;
         Utilities.AllPoints++;
-        tm.schedule(tsk, 2000);
+        tm.schedule(tsk, 1500);
     }
 
     public void onButtonClickButton3(View view) {
         if (util.Checking(findViewById(R.id.choose_butt_3), findViewById(R.id.textView), Utilities.right_key, Utilities.points,Utilities.AllPoints))
             Utilities.points++;
         Utilities.AllPoints++;
-        tm.schedule(tsk, 2000);
+        tm.schedule(tsk, 1500);
     }
 
     public void onButtonClickButton4(View view) {
         if (util.Checking(findViewById(R.id.choose_butt_4), findViewById(R.id.textView), Utilities.right_key, Utilities.points,Utilities.AllPoints))
             Utilities.points++;
         Utilities.AllPoints++;
-        tm.schedule(tsk, 2000);
+        tm.schedule(tsk, 1500);
     }
 
 

@@ -24,7 +24,7 @@ public class MainActivity3 extends AppCompatActivity {
 
         Bundle arguments = getIntent().getExtras();
         Category cat = (Category) arguments.getSerializable(Category.class.getSimpleName());
-        CategoryMap = cat.category;
+        CategoryMap = cat.category_obj;
 
 
         Map<String, String> Category_test = util.CreatingTest(CategoryMap,findViewById(R.id.textView2));

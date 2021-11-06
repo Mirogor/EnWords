@@ -7,6 +7,6 @@ import java.util.Map;
  * Класс для сериализации категории теста
  */
 public class Category implements Serializable {
-    public Map<String, String> category;
-    public Category(Map<String, String> cat){ this.category = cat; }
+    transient Map<String, String> category_obj;
+    public Category(Map<String, String> cat){ this.category_obj = cat; }
 }

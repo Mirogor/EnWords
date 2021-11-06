@@ -19,7 +19,7 @@ public class Utilities {
     public static int AllPoints;
     static String right_key;
     public static String rand(Map<String,String> category){
-        Random random    = new Random();
+        Random random    = new Random(System.currentTimeMillis()*256);
         List<String> keys  = new ArrayList<>(category.keySet());
         return keys.get(random.nextInt(category.size()));
     }

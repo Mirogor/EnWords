@@ -26,6 +26,9 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    lintOptions {
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -44,4 +47,5 @@ sonarqube {
         property "sonar.organization", "mirogor"
         property "sonar.host.url", "https://sonarcloud.io"
     }
+
 }

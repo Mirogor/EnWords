@@ -8,5 +8,5 @@ import java.util.Map;
  */
 public class Category implements Serializable {
     public Map<String, String> category;
-    public Category(Map<String, String> category){ this.category = category; }
+    public Category(Map<String, String> cat){ this.category = cat; }
 }

@@ -56,7 +56,7 @@ public class Utilities {
         textView.setText(p);
     }
 
-    public Map CreatingTest(Map<String,String> Category, TextView textView){
+    public Map<String,String> CreatingTest(Map<String,String> Category, TextView textView){
         right_key = Utilities.rand(Category);
         String right_value = Category.get(right_key);
         textView.setText(right_value);

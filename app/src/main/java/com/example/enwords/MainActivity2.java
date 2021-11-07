@@ -7,8 +7,8 @@ import android.view.View;
 
 import java.util.HashMap;
 
+/** Класс для создания страницы выбора категории */
 public class MainActivity2 extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,6 +16,8 @@ public class MainActivity2 extends AppCompatActivity {
         setContentView(R.layout.activity_main2);
     }
     Category category;
+    /**Выбор категории теста Shopping
+     * @param view Внешнее представление кнопки 1*/
     public void onButtonClickCategory1(View view) {
         HashMap<String, String> shopping  = new HashMap<>();
         shopping.put("shop [ʃɒp]", "магазин");
@@ -55,7 +57,8 @@ public class MainActivity2 extends AppCompatActivity {
         intent3.putExtra(Category.class.getSimpleName(),category);
         startActivity(intent3);
     }
-
+    /**Выбор категории теста Verbs
+     *@param view  Внешнее представление кнопки 2*/
     public void onButtonClickCategory2(View view) {
         HashMap<String, String> verb  = new HashMap<>();
         verb.put("do [duː]", "делать");
@@ -130,7 +133,8 @@ public class MainActivity2 extends AppCompatActivity {
         intent3.putExtra(Category.class.getSimpleName(),category);
         startActivity(intent3);
     }
-
+    /**Выбор категории теста Phrases
+     * @param view Внешнее представление кнопки 3*/
     public void onButtonClickCategory3(View view) {
         HashMap<String, String> phrase  = new HashMap<>();
         phrase.put("i want... [aɪ wɒnt]", "я хочу...");
@@ -169,7 +173,8 @@ public class MainActivity2 extends AppCompatActivity {
         intent3.putExtra(Category.class.getSimpleName(),category);
         startActivity(intent3);
     }
-
+    /**Выбор категории теста Food
+     * @param view Внешнее представление кнопки 4 */
     public void onButtonClickCategory4(View view) {
         HashMap<String, String> food  = new HashMap<>();
         food.put("apple [ˈæpl]", "яблоко");

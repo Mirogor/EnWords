@@ -9,6 +9,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
+/** Класс для создания стартовой страницы */
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -35,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
+    /** Фунция отлавливание события нажания кнопки Start
+     * @param view Внешнее представление кнопки */
     public void onButtonClickStart(View view) {
         Intent intent2 = new Intent(this, MainActivity2.class);
         startActivity(intent2);

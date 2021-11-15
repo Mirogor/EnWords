@@ -2,7 +2,6 @@ package com.example.enwords;
 import android.graphics.Color;
 import android.widget.Button;
 import android.widget.TextView;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -20,14 +19,12 @@ public class Utilities {
 
     /** Поле максимально возможных очков */
     public static int AllPoints;
-
     /** Поле правильного ответа */
     static String right_key;
-
     /** Фукнция получения случайного ключа в словаре
      * @param category словарь категории
      * @return Случайный ключ к элементу словаря*/
-    public static String rand(Map<String,String> category){
+    public static String rand( Map<String,String> category){
         Random random    = new Random(System.currentTimeMillis()*256);
         List<String> keys  = new ArrayList<>(category.keySet());
         return keys.get(random.nextInt(category.size()));
@@ -102,5 +99,9 @@ public class Utilities {
         }
         return Category_test;
     }
-
+    public void ButtonEnability(List<Button> buttons) {
+        for (Button each_but : buttons) {
+            each_but.setEnabled(false);
+        }
+    }
 }

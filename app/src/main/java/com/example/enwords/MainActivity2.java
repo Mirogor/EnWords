@@ -161,8 +161,8 @@ public class MainActivity2 extends AppCompatActivity {
         phrase.put("hi [haɪ]", "привет");
         phrase.put("it's ok [ɪts ˌəʊˈkeɪ]", "все нормально");
         phrase.put("i don't understand [aɪ dəʊnt ʌndəˈstand]", "я не понимаю");
-        phrase.put("tern left [tɜːn left]", "поверните налево");
-        phrase.put("tern right [tɜːn rʌɪt]", "поверните направо");
+        phrase.put("turn left [tɜːn left]", "поверните налево");
+        phrase.put("turn right [tɜːn rʌɪt]", "поверните направо");
         phrase.put("go straight ahead [ɡəʊ streɪt əˈhɛd]", "идите прямо");
         phrase.put("go back [ɡəʊ ˈbæk]", "идите назад");
         phrase.put("be careful [bi ˈkɛːfʊl]", "будте осторожнее");

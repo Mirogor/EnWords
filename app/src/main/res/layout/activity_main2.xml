@@ -22,8 +22,8 @@
 
     <Button
         android:id="@+id/category3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="121dp"
+        android:layout_height="49dp"
         android:onClick="onButtonClickCategory3"
         android:text="@string/category3"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,8 +35,8 @@
 
     <Button
         android:id="@+id/category2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="121dp"
+        android:layout_height="51dp"
         android:onClick="onButtonClickCategory2"
         android:text="@string/category2"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,8 +48,8 @@
 
     <Button
         android:id="@+id/category4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="126dp"
+        android:layout_height="50dp"
         android:onClick="onButtonClickCategory4"
         android:text="@string/category4"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -64,5 +64,9 @@
         android:id="@+id/group2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:constraint_referenced_ids="category1,category2,category4,category3" />
+        app:constraint_referenced_ids="category1,category2,category4,category3"
+        app:layout_constraintBottom_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

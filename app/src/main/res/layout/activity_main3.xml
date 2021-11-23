@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_pattern"
     tools:context=".MainActivity3">
 
     <Button
@@ -13,12 +14,14 @@
         android:onClick="onButtonClickBack"
         android:text="@string/back"
         android:textAlignment="center"
+        android:backgroundTint="#5D5FEF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.164"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.128"
+        app:cornerRadius="30dp"
         tools:ignore="UsingOnClickInXml" />
 
     <TextView
@@ -26,6 +29,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/points"
+        android:textColor="@color/white"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.782"
@@ -39,68 +44,78 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/translation"
+        android:textColor="@color/white"
+        android:textSize="20dp"
         app:layout_constraintBottom_toTopOf="@+id/choose_butt_1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.547" />
 
     <Button
         android:id="@+id/choose_butt_1"
-        android:layout_width="409dp"
+        android:layout_width="294dp"
         android:layout_height="66dp"
         android:onClick="onButtonClickButton1"
         android:text="@string/button"
         android:textAlignment="center"
+        android:backgroundTint="#5D5FEF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.524"
+        app:cornerRadius="30dp"
         tools:ignore="DuplicateSpeakableTextCheck,UsingOnClickInXml" />
 
     <Button
         android:id="@+id/choose_butt_4"
-        android:layout_width="409dp"
-        android:layout_height="57dp"
+        android:layout_width="294dp"
+        android:layout_height="66dp"
         android:layout_marginBottom="48dp"
         android:onClick="onButtonClickButton4"
         android:text="@string/button"
         android:textAlignment="center"
+        android:backgroundTint="#5D5FEF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:cornerRadius="30dp"
         tools:ignore="OnClick,UsingOnClickInXml" />
 
     <Button
         android:id="@+id/choose_butt_3"
-        android:layout_width="409dp"
-        android:layout_height="59dp"
+        android:layout_width="294dp"
+        android:layout_height="66dp"
         android:onClick="onButtonClickButton3"
         android:text="@string/button"
         android:textAlignment="center"
+        android:backgroundTint="#5D5FEF"
         app:layout_constraintBottom_toTopOf="@+id/choose_butt_4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/choose_butt_2"
+        app:cornerRadius="30dp"
         tools:ignore="OnClick,UsingOnClickInXml" />
 
     <Button
         android:id="@+id/choose_butt_2"
-        android:layout_width="409dp"
+        android:layout_width="294dp"
         android:layout_height="64dp"
         android:onClick="onButtonClickButton2"
         android:text="@string/button"
         android:textAlignment="center"
+        android:backgroundTint="#5D5FEF"
         app:layout_constraintBottom_toTopOf="@+id/choose_butt_3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/choose_butt_1"
+        app:cornerRadius="30dp"
         tools:ignore="OnClick,UsingOnClickInXml" />
 
     <androidx.constraintlayout.widget.Group
